@@ -1,0 +1,32 @@
+/* Add borders to decks and cards */
+
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* Add a dark gray background color to the top navigation */
+.topnav {
+  background-color:
+}
+/* Header styling including logo (200x70) and nav */
+
+header {
+  border: 1px solid gray;
+  background: gray;
+  display: inline-block;
+  position: fixed;
+}
+
+body {
+  border: 1px solid black;
+}
+
+section {
+  margin: 30px;
+}
+
+footer {
+  background: gray;
+  border: 1px black;
+}
