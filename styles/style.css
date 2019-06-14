@@ -1,32 +1,151 @@
-/* Add borders to decks and cards */
-
 * {
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
-/* Add a dark gray background color to the top navigation */
-.topnav {
-  background-color:
+body, html {
+  height: 100%;
+  width: 960px;
 }
-/* Header styling including logo (200x70) and nav */
+
+/* Header */
 
 header {
-  border: 1px solid gray;
-  background: gray;
   display: inline-block;
-  position: fixed;
+  width: 100%;
 }
 
-body {
-  border: 1px solid black;
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  margin: 10px;
 }
+
+/* Navigation */
+
+.topnav {
+  background-color: #444444;
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0 0 0 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.topnav a {
+  color: #777777;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Body */
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Section */
 
 section {
+  align-content: center;
+  float: left;
   margin: 30px;
+  position: relative;
+  width: 100%;
+}
+
+/* Divs */
+
+div {
+  width: 100%;
+}
+
+#hero {
+  margin: 10px;
+  width: 100%;
+}
+
+#subbanner {
+  
+  position: relative;
+  margin: 10 px;
+  width: 960px;
+}
+
+.subbannerleft {
+  float: left;
+  margin: 10px;
+  width: 300px;
+}
+
+.subbannerright {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+.featuredleft {
+  float: left;
+  width: 50%
+}
+
+.featuredright {
+  float: right;
+  width: 50%;
+}
+
+/* Headers */
+
+h2 {
+  font-family: Arial;
+  font-size: 22px;
+  margin: 10px;
+}
+
+/* Paragraph */
+
+p {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 10px;
+  line-height: normal;
+}
+
+
+
+
+/* Button */
+
+
+.calltoaction {
+  background: black;
+  border: none;
+  color: white;
+  padding: 7px 32px;
+  
+}
+
+#featuredsection {
+  width: 960px;
+}
+
+#featuredleft {
+  width: 480px;
+  margin: 10px;
+}
+
+#featuredright {
+  width: 960-480px;
+  margin: 30px;
+  padding: 30px;
 }
 
 footer {
-  background: gray;
-  border: 1px black;
+  background-color: #444444;
+  height: 90px;
+  width: 100%;
 }
