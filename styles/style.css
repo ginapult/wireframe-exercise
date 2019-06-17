@@ -1,32 +1,182 @@
-/* Add borders to decks and cards */
-
 * {
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
-/* Add a dark gray background color to the top navigation */
-.topnav {
-  background-color:
+body, html {
+  width: 100%;
 }
-/* Header styling including logo (200x70) and nav */
+
+/* Header */
 
 header {
-  border: 1px solid gray;
-  background: gray;
-  display: inline-block;
-  position: fixed;
+  width: 100%;
+  margin: auto; /*centers it*/
 }
 
-body {
-  border: 1px solid black;
+main {
+  width 920px;
+  margin: auto;
 }
+
+
+
+
+/* Navigation */
+
+header section {
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+#logo > * {
+  display: inline-block;
+  padding 5px;
+}
+
+
+.topnav {
+  background-color: #444444;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.topnav a {
+  color: #777777;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  height: 50 px;
+  line-height: 50px; /*this and height above are how you center text*/
+  margin: 10px 0;
+  text-align: center;
+  width: 110px;
+}
+
+/* Body */
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+/* Section */
 
 section {
+  align-content: center;
+  float: left;
   margin: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Divs */
+
+div {
+  width: 100%;
+}
+
+#hero {
+  margin: 10px;
+  width: 100%;
+}
+
+#subbanner {
+  
+  position: relative;
+  margin: 10 px;
+  width: 960px;
+}
+
+.subbannerleft {
+  float: left;
+  margin: 10px;
+  width: 300px;
+}
+
+.subbannerright {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+.featuredleft {
+  float: left;
+  width: 480px;
+}
+
+.featuredright {
+  float: right;
+  margin: 10px;
+  width: 440px;
+}
+
+/* Headers */
+
+h2 {
+  font-family: Arial;
+  font-size: 22px;
+  margin: 10px;
+}
+
+/* Paragraph */
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+  margin: 10px;
+  line-height: normal;
+  overflow: scroll;
+}
+
+
+
+
+/* Button */
+
+
+.calltoaction {
+  background: black;
+  border: none;
+  color: white;
+  padding: 7px 32px;
+  
+}
+
+#featuredsection {
+  width: 960px;
+  height: 400px;
+}
+
+#featuredleft {
+  width: 480px;
+  margin: 10px;
+}
+
+#featuredright {
+  width: 960-480px;
+  margin: 30px;
+  overflow: scroll;
+  padding: 30px;
 }
 
 footer {
-  background: gray;
-  border: 1px black;
+  background-color: #444444;
+  width:920px;
+  height: 90px;
+  margin: auto;
+  padding: 20px 0;
+  display: block;
+  margin: 0 auto;
 }
